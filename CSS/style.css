@@ -1,0 +1,857 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Pt system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin-top: 15px;
+    width: 1440px;
+    height: 56px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-list {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.header-item {
+    margin-left: 87px;
+    align-items: center;
+}
+
+.header-list-icon {
+    margin: 0px 16px -5px 0px;
+}
+
+.header-link {
+    font-family: "PT Root UI Web";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+}
+
+.business {
+    margin: 88px auto 0px;
+    width: 1440px;
+    background: #F0F0F0;
+}
+
+.business-wrapper {
+    display: flex;
+    width: 1200px;
+}
+
+.business-wrapper-left {
+    width: 50%;
+}
+
+.business-wrapper-right {
+    margin-left: 160px;
+    width: 50%;
+
+}
+
+.business-right-power-plan {
+    border: 1px solid;
+    width: 436px;
+    height: 617px;
+}
+
+
+.business-left-title {
+    width: 620px;
+    display: block;
+    height: 137px;
+    font-family: "PT Root UI Web";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 32px;
+
+}
+
+.business-left-paragraph {
+    height: 95px;
+    width: 628px;
+    font-family: "PT Root UI Web";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    margin-bottom: 40px;
+}
+
+.business-left-link {
+    color: #FFFFFF;
+    margin-right: 48px;
+    padding: 18px 20px;
+    background-color: #EE1B24;
+    font-family: "PT Root UI Web";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.business-left-link:last-child {
+    margin-right: 0px;
+    background-color: #F0F0F0;
+    color: #161A2B;
+    border: 2px solid #161A2B;
+    padding: 15px 35px;
+}
+
+
+/* why us start */
+
+.why-us {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #161A2B;
+
+}
+
+.why-us-wrapper {
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.why-us-wrapper-left {
+    width: 50%;
+    color: #FFFFFF;
+    border-bottom: 8px solid red;
+}
+
+.why-us-w-left-title {
+    margin: 80px 0px 48px 0px;
+    display: inline-block;
+    text-align: center;
+    height: 54px;
+    width: 216px;
+    font-family: "PT Root UI Web";
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.why-us-w-left-paragraph {
+    margin-bottom: 32px;
+    height: 54px;
+    width: 432px;
+    font-family: "PT Root UI Web";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.why-us-w-left-parsgraph-2 {
+    height: 135px;
+    width: 432px;
+    font-family: "PT Root UI Web";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+
+}
+
+.why-us-wrapper-right {
+    position: relative;
+    margin-top: 10px;
+    width: 596px;
+    height: 582px;
+    background-image: url(../Picture/background__image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.why-us-wrapper-right-item {
+    background-color: #161A2B;
+    position: absolute;
+    width: 200px;
+    height: 190px;
+    left: 80px;
+    top: 100px;
+    padding: 50px 0px 0px 50px;
+    color: #FFFFFF;
+
+}
+
+.why-us-number {
+    font-family: "PT Root UI Web";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+}
+
+.why-us-wrapper-right-item-1 {
+    background-color: #161A2B;
+    position: absolute;
+    width: 200px;
+    height: 190px;
+    left: 310px;
+    top: 100px;
+    padding: 50px 0px 0px 50px;
+    color: #FFFFFF;
+
+
+}
+
+.why-us-wrapper-right-item-2 {
+    position: absolute;
+    width: 200px;
+    height: 190px;
+    left: 80px;
+    top: 320px;
+    padding: 50px 0px 0px 50px;
+    color: #FFFFFF;
+    background-color: #161A2B;
+
+}
+
+.why-us-wrapper-right-item-3 {
+    background-color: #161A2B;
+    position: absolute;
+    width: 200px;
+    height: 190px;
+    left: 310px;
+    top: 320px;
+    padding: 50px 0px 0px 50px;
+    color: #FFFFFF;
+
+
+}
+
+.power {
+    width: 1440px;
+    background: #F0F0F0;
+    margin: 0 auto;
+}
+
+.power-wrapper {
+    margin-top: 88px;
+
+}
+
+.power-wrapper-bt-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.power-wrapper-top-title {
+    font-family: "PT Root UI Web";
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: 0em;
+    height: 54px;
+    width: 374px;
+    margin-bottom: 48px;
+}
+
+
+.power-wrapper-bt-item {
+    height: 340px;
+    width: 576px;
+    border-radius: 0px;
+    background: #FFFFFF;
+    margin: 0px 0px 48px 10px;
+    position: relative;
+    border-bottom: 4px solid red;
+}
+
+.power-wrapper-bt-photo {
+    height: 112px;
+    width: 112px;
+}
+
+.power-wrapper-bt-title {
+    position: absolute;
+    top: 40px;
+    left: 160px;
+
+}
+
+.power-wrapper-bt-text {
+    position: absolute;
+    top: 128px;
+    left: 40px;
+    width: 492px;
+    font-family: "PT Root UI Web";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.room {
+    width: 1440px;
+    height: 970px;
+    margin: 0 auto;
+    background-image: url(../Picture/room-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.room-wrapper-top {
+    position: absolute;
+    top: 80px;
+    left: 119px;
+    height: 54px;
+    width: 432px;
+    border-radius: nullpx;
+    font-family: "PT Root UI Web";
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+
+}
+
+.room-wrapper-bottom {
+    position: absolute;
+    top: 180px;
+    width: 1200px;
+    height: 640px;
+    display: flex;
+}
+
+.room-wrapper-bottom-left {
+    width: 50%;
+    height: 640px;
+    background-color: #F0F0F0;
+}
+
+.room-wrapper-bottom-left-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+
+.room-wrapper-bottom-left-top-title {
+    font-family: "PT Root UI Web";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0px 32px 0px 32px;
+
+}
+
+.room-wrapper-bt-l-bt {
+    margin: 32px 16px 32px 16px;
+    font-family: "PT Root UI Web";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.room-wrapper-bottom-right {
+    width: 50%;
+    height: 640px;
+    border: 1px solid;
+    position: relative;
+    background-color: #161A2B;
+    padding: 91px 68px 92px;
+}
+
+.room-wrapper-bottom-right-top-title {
+    font-family: "PT Root UI Web";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    position: absolute;
+    top: 91px;
+    left: 68px;
+}
+
+.room-wrapper-bottom-right-top-form {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    position: absolute;
+    top: 233px;
+    left: 68px;
+}
+
+.room-wrapper-bottom-right-top-input {
+    border: none;
+    font-family: "PT Root UI Web";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    outline: none;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 64px;
+    background-color: #161A2B;
+    color: #b8b3b3;
+    border-bottom: 1px solid;
+}
+
+.room-wrapper-bottom-right-top-checkbox-blok {
+    width: 100%;
+}
+
+.room-wrapper-bottom-right-top-checkbox-blok-text {
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+
+.room-wrapper-bottom-right-bottom-link {
+    height: 56px;
+    width: 336px;
+    border: 2px solid red;
+    border-radius: nullpx;
+    margin: 20px 0px 0px 50px;
+    text-align: center;
+    line-height: 45px;
+    color: #FFFFFF;
+    font-family: "PT Root UI Web";
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+
+.work {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #161A2B;
+}
+
+.work-wrapper-top-title {
+    height: 54px;
+    width: 432px;
+    font-family: "PT Root UI Web";
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 48px;
+    color: #FFFFFF;
+}
+
+.work-wrapper-bottom-list {
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-wrapper-bottom-item {
+    border-left: 2px solid red;
+    /* margin-left: 10px; */
+}
+
+.work-wrapper-bottom-paragraph {
+    height: 72px;
+    width: 145px;
+    border-radius: nullpx;
+    font-family: "PT Root UI Web";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.work-wrapper-bottom-paragraph-2 {
+    height: 54px;
+    width: 194px;
+    border-radius: nullpx;
+    font-family: "PT Root UI Web";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.dear-reading {
+    width: 1440px;
+    margin: 80px auto 0px;
+    background-color: #E5E5E5;
+    height: 600px;
+}
+
+.dear-reading-title {
+    height: 54px;
+    width: 188px;
+    border-radius: nullpx;
+    font-family: "PT Root UI Web";
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.dear-reading-wrapper-bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 216px;
+    height: 161px;
+    background-image: url(../Picture/Silowiye__mashini.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo-1 {
+    width: 384px;
+    height: 161px;
+    background-image: url(../Picture/Rotec.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo-2 {
+    width: 381px;
+    height: 161px;
+    background-image: url(../Picture/SGC.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo-3 {
+    width: 216px;
+    height: 161px;
+    background-image: url(../Picture/unipro.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo-4 {
+    width: 432px;
+    height: 161px;
+    background-image: url(../Picture/InterRAO.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo-5 {
+    width: 336px;
+    height: 161px;
+    background-image: url(../Picture/tgk-16.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo-6 {
+    width: 431px;
+    height: 161px;
+    background-image: url(../Picture/rakurs.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo-7 {
+    width: 216px;
+    height: 161px;
+    background-image: url(../Picture/reph.png);
+    background-repeat: no-repeat;
+    background-size: 216px 161px;
+}
+
+.logo-8 {
+    width: 384px;
+    height: 161px;
+    background-image: url(../Picture/Elsib.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo-9 {
+    width: 334px;
+    height: 161px;
+    background-image: url(../Picture/Sulzer.png);
+    background-repeat: no-repeat;
+    background-size: 334px 161px;
+}
+
+.logo-10 {
+    width: 260px;
+    height: 161px;
+    background-image: url(../Picture/ge.png);
+    background-repeat: no-repeat;
+    background-size: 261px 161px;
+}
+
+.feedback {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #F0F0F0;
+}
+
+.feedbeck-title {
+    font-family: "PT Root UI Web";
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+.feedback-middle {
+    width: 800px;
+    height: 490px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #FFFFFF;
+
+}
+
+.feedback-middle-title {
+    position: absolute;
+    top: 48px;
+    left: 200px;
+    font-family: "PT Root UI Web";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.feedback-middle-text {
+    position: absolute;
+    top: 94px;
+    left: 200px;
+    font-family: "PT Root UI Web";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.feedback-middle-text-2 {
+    height: 206px;
+    width: 744px;
+    border-radius: nullpx;
+    left: 40px;
+    top: 188px;
+    height: 206px;
+    width: 744px;
+    margin: 0 auto;
+    position: absolute;
+    font-family: PT Root UI Web;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.company-logo {
+    position: absolute;
+    width: 106px;
+    height: 31px;
+    background-image: url(../Picture/Company__logo.png);
+    background-size: 106px 31px;
+    background-repeat: no-repeat;
+    top: 442px;
+    left: 642px;
+}
+
+.company-border {
+    position: absolute;
+    height: 8px;
+    width: 360px;
+    background-color: #EE1B24;
+    border-radius: 0px;
+    top: 481px;
+    left: 440px;
+}
+
+.company-border-pagination {
+    position: absolute;
+    width: 212px;
+    height: 8px;
+    background-image: url(../Picture/Pagination.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 512px;
+}
+
+.arrow-back-left {
+    width: 32px;
+    height: 64px;
+    position: absolute;
+    bottom: 250px;
+    right: 970px;
+    background-image: url(../Picture/arrow__backStroke.svg);
+    background-size: contain;
+}
+
+.arrow-back-right {
+    width: 32px;
+    height: 64px;
+    position: absolute;
+    top: 175px;
+    left: 970px;
+    background-image: url(../Picture/arrow__forward.svg);
+    background-size: contain;
+}
+
+.current {
+    width: 1440px;
+    margin: 40px auto;
+    padding: 48px 119px;
+    background-color: #FFFFFF;
+}
+
+.current-wrapper-title {
+    height: 36px;
+    width: 502px;
+    left: 119px;
+    top: 5533px;
+    border-radius: nullpx;
+    font-family: "PT Root UI Web";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.current-wrapper-bootom-input {
+    width: 376px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #929090;
+    margin-right: 56px;
+    margin-top: 68px;
+}
+
+.current-wrapper-bottom-link {
+    padding: 20px 30px;
+    border: 1px solid #EE1B24;
+    color: #000000;
+}
+
+
+.current-wrapper-bootom-checkbox {
+    margin-top: 40px;
+    margin-left: 16px;
+    font-family: "PT Root UI Web";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.footer {
+    padding: 40px 120px;
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #161A2B;
+    color: #FFFFFF;
+}
+
+.footer-wrapper-bottom {
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-text {
+    font-family: "PT Root UI Web";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8d8d8d;
+    margin-right: 16px;
+}
+
+.footer-paragraph {
+    margin-right: 221px;
+    font-family: "PT Root UI Web";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.footer-paragraph:last-child {
+    margin-right: 0px;
+}
